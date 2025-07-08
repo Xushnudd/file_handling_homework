@@ -6,5 +6,8 @@ def main(data:str):
     Returns:
         list: return answer
     """
+    f = open(f"data/{data}", 'r')
+    return list(f.read())
 
 # Read data from file
+print(main("data01.txt"))

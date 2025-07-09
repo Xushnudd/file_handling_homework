@@ -10,4 +10,4 @@ def main(data:str):
     return list(f.read())
 
 # Read data from file
-print(main("data02.txt"))
+print(main("data01.txt"))
